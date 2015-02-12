@@ -19,10 +19,13 @@ h1 {
 
 dt {
   color: #7f7f7f;
+  font-size: 20px;
+
 }
 
 dl {
   font-language-override: normal;
+  padding-left: 1em;
 }
 
 *, *:before, *:after {
