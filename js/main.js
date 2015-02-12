@@ -42,8 +42,7 @@ var writeBerries = function (berries) {
   document.write('<dt>Protien</dt>');
   document.write('<dd>' + berries.protein + '</dd>');
   
-  document.write('</dl>');
-  
+  document.write('</dl>');  
 };
 
 var allberries = [blueberries, grapes, redcurrent];
