@@ -22,6 +22,10 @@ dt {
   color: #7f7f7f;
 }
 
+dl {
+  font-language-override: normal;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
