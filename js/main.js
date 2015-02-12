@@ -46,6 +46,12 @@ var writeBerries = function (berries) {
   
 };
 
-writeBerries(blueberries);
-writeBerries(grapes);
-writeBerries(redcurrent);
+var allberries = [blueberries, grapes, redcurrent];
+
+allberries.forEach(writeBerries);
+
+// Code above replaces the amount of code below
+//(blueberries);
+//writeBerries(grapes);
+//writeBerries(redcurrent);
+
