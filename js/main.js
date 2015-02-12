@@ -1,5 +1,5 @@
 var blueberries = {
-  fullName: 'vaccinium corymbosum',
+  fullName: 'Vaccinium Corymbosum',
   growsOnShrub: true,
   energy: 240,
   carbohydrates: 14.49,
@@ -24,3 +24,28 @@ var redcurrent = {
   protein:  1.4
 };
 console.log(redcurrent.fullName);
+
+var writeBerries = function (berries) {
+  document.write('<h1>' + berries.fullName + '</h1>');
+  
+  document.write('<dl>');
+  
+  document.write('<dt>Grows on Shrubs</dt>');
+  document.write('<dd>' + berries.growsOnShrub + '</dd>');
+  
+  document.write('<dt>Energy</dt>');
+  document.write('<dd>' + berries.energy + '</dd>');
+  
+  document.write('<dt>Carbohydrates</dt>');
+  document.write('<dd>' + berries.carbohydrates + '</dd>');
+  
+  document.write('<dt>Protien</dt>');
+  document.write('<dd>' + berries.protein + '</dd>');
+  
+  document.write('</dl>');
+  
+};
+
+writeBerries(blueberries);
+writeBerries(grapes);
+writeBerries(redcurrent);
